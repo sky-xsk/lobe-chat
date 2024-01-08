@@ -28,17 +28,26 @@ const APIKeyForm = memo<{ id: string }>(({ id }) => {
       <FormAction
         avatar={'🔑'}
         description={t('unlock.apikey.description')}
-        title={t('unlock.apikey.title')}
+        // title={t('unlock.apikey.title')}
+        title='请登录'
       >
+        <Input
+          onChange={(e) => {
+            setConfig({ OPENAI_API_KEY: e.target.value });
+          }}
+          placeholder='请输入邮箱'
+          type={'block'}
+          value={apiKey}
+        />
         <Input.Password
           onChange={(e) => {
             setConfig({ OPENAI_API_KEY: e.target.value });
           }}
-          placeholder={'sk-*****************************************'}
+          placeholder='请输入密码'
           type={'block'}
           value={apiKey}
         />
-        {showProxy ? (
+        {/* {showProxy ? (
           <Input
             onChange={(e) => {
               setConfig({ endpoint: e.target.value });
@@ -57,7 +66,7 @@ const APIKeyForm = memo<{ id: string }>(({ id }) => {
           >
             {t('unlock.apikey.addProxyUrl')}
           </Button>
-        )}
+        )} */}
       </FormAction>
       <Flexbox gap={12} width={'100%'}>
         <Button
