@@ -24,7 +24,7 @@ const Redirect = memo(() => {
 
         switchSession();
       } else {
-        router.push('/welcome');
+        router.push('/chat');
       }
     });
   }, []);

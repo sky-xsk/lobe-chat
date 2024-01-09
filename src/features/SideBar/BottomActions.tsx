@@ -1,13 +1,8 @@
 import { ActionIcon, DiscordIcon, Icon } from '@lobehub/ui';
 import { Badge, ConfigProvider, Dropdown, MenuProps } from 'antd';
 import {
-  Book,
-  Feather,
-  FileClock,
-  Github,
   HardDriveDownload,
   HardDriveUpload,
-  Heart,
   Settings,
   Settings2,
 } from 'lucide-react';
@@ -16,7 +11,7 @@ import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Flexbox } from 'react-layout-kit';
 
-import { ABOUT, CHANGELOG, DISCORD, FEEDBACK, GITHUB, WIKI } from '@/const/url';
+import {  DISCORD } from '@/const/url';
 import DataImporter from '@/features/DataImporter';
 import { configService } from '@/services/config';
 import { GlobalStore, useGlobalStore } from '@/store/global';
