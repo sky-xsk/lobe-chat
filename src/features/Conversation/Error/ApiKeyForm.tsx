@@ -44,7 +44,7 @@ const APIKeyForm = memo<{ id: string }>(({ id }) => {
             onChange={(e) => {
               setConfig({ endpoint: e.target.value });
             }}
-            placeholder={'https://www.chatkore.com/api/v1/'}
+            placeholder={'https://api.chatkore.com/v1'}
             type={'block'}
             value={proxyUrl}
           />
@@ -65,7 +65,7 @@ const APIKeyForm = memo<{ id: string }>(({ id }) => {
           block
           onClick={() => {
             resend(id);
-            setConfig({ endpoint: 'https://www.chatkore.com/api/v1/' });
+            setConfig({ endpoint: 'https://api.chatkore.com/v1' });
             deleteMessage(id);
           }}
           style={{ marginTop: 8 }}
