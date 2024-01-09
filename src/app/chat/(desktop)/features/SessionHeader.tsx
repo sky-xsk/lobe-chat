@@ -13,6 +13,7 @@ import SessionSearchBar from '../../features/SessionSearchBar';
 export const useStyles = createStyles(({ css, token }) => ({
   logo: css`
     fill: ${token.colorText};
+    font-size: 24px;
   `,
   top: css`
     position: sticky;
@@ -28,7 +29,7 @@ const Header = memo(() => {
   return (
     <Flexbox className={styles.top} gap={16} padding={16}>
       <Flexbox distribution={'space-between'} horizontal>
-        <Logo className={styles.logo} size={36} type={'text'} />
+        <div className={styles.logo}>ChatKore</div>
         <ActionIcon
           icon={MessageSquarePlus}
           onClick={() => createSession()}
