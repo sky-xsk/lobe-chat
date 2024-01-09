@@ -13,7 +13,7 @@ import { FormAction } from './style';
 
 const APIKeyForm = memo<{ id: string }>(({ id }) => {
   const { t } = useTranslation('error');
-  const [showProxy, setShow] = useState(false);
+  const [showProxy, setShow] = useState(true);
 
   const [apiKey, proxyUrl, setConfig] = useGlobalStore((s) => [
     settingsSelectors.openAIAPI(s),
@@ -28,31 +28,23 @@ const APIKeyForm = memo<{ id: string }>(({ id }) => {
       <FormAction
         avatar={'🔑'}
         description={t('unlock.apikey.description')}
-        // title={t('unlock.apikey.title')}
-        title='请登录'
+        title={t('unlock.apikey.title')}
       >
-        <Input
-          onChange={(e) => {
-            setConfig({ OPENAI_API_KEY: e.target.value });
-          }}
-          placeholder='请输入邮箱'
-          type={'block'}
-          value={apiKey}
-        />
         <Input.Password
           onChange={(e) => {
             setConfig({ OPENAI_API_KEY: e.target.value });
           }}
-          placeholder='请输入密码'
+          placeholder={'sk-*****************************************'}
           type={'block'}
           value={apiKey}
         />
-        {/* {showProxy ? (
+        {showProxy ? (
           <Input
+            disabled={true}
             onChange={(e) => {
               setConfig({ endpoint: e.target.value });
             }}
-            placeholder={'https://api.openai.com/v1'}
+            placeholder={'https://www.chatkore.com/api/v1/'}
             type={'block'}
             value={proxyUrl}
           />
@@ -66,13 +58,14 @@ const APIKeyForm = memo<{ id: string }>(({ id }) => {
           >
             {t('unlock.apikey.addProxyUrl')}
           </Button>
-        )} */}
+        )}
       </FormAction>
       <Flexbox gap={12} width={'100%'}>
         <Button
           block
           onClick={() => {
             resend(id);
+            setConfig({ endpoint: 'https://www.chatkore.com/api/v1/' });
             deleteMessage(id);
           }}
           style={{ marginTop: 8 }}
