@@ -63,6 +63,7 @@ const LLM = memo(() => {
         children: (
           <Input
             allowClear
+            disabled={true}
             placeholder={
               useAzure
                 ? t('llm.AzureOpenAI.endpoint.placeholder')

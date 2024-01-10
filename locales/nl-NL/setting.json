@@ -57,7 +57,7 @@
       },
       "endpoint": {
         "desc": "Moet http(s):// bevatten, naast het standaardadres",
-        "placeholder": "https://api.openai.com/v1",
+        "placeholder": "https://api.chatkore.com/v1",
         "title": "Proxy-adres"
       },
       "models": {

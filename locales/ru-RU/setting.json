@@ -57,7 +57,7 @@
       },
       "endpoint": {
         "desc": "Кроме адреса по умолчанию, должен содержать http(s)://",
-        "placeholder": "https://api.openai.com/v1",
+        "placeholder": "https://api.chatkore.com/v1",
         "title": "Прокси-адрес API"
       },
       "models": {

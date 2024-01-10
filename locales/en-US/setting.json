@@ -57,7 +57,7 @@
       },
       "endpoint": {
         "desc": "Must include http(s):// besides the default address",
-        "placeholder": "https://api.openai.com/v1",
+        "placeholder": "https://api.chatkore.com/v1",
         "title": "API Proxy Address"
       },
       "models": {

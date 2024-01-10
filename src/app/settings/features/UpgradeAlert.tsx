@@ -12,12 +12,12 @@ const UpgradeAlert = memo(() => {
   const { t } = useTranslation('common');
 
   return (
-    hasNewVersion && (
+    false && (
       <Alert
         action={
           <Link aria-label={t('upgradeVersion.action')} href={MANUAL_UPGRADE_URL} target={'_blank'}>
             <Button size={'small'} type={'primary'}>
-              {t('upgradeVersion.action')}
+              {t('upgradeVersion.action')}{hasNewVersion}
             </Button>
           </Link>
         }

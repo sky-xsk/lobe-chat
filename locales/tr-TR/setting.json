@@ -57,7 +57,7 @@
       },
       "endpoint": {
         "desc": "Varsayılan adresin yanı sıra http(s):// içermelidir",
-        "placeholder": "https://api.openai.com/v1",
+        "placeholder": "https://api.chatkore.com/v1",
         "title": "API Proxy Adresi"
       },
       "models": {

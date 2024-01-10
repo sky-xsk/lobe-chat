@@ -57,7 +57,7 @@
       },
       "endpoint": {
         "desc": "デフォルトのアドレス以外に、http(s):// を含める必要があります",
-        "placeholder": "https://api.openai.com/v1",
+        "placeholder": "https://api.chatkore.com/v1",
         "title": "インターフェースプロキシアドレス"
       },
       "models": {

@@ -1,18 +1,15 @@
 {
-  "name": "@lobehub/chat",
+  "name": "chatkore",
   "version": "0.119.8",
-  "description": "Lobe Chat - an open-source, high-performance chatbot framework that supports speech synthesis, multimodal, and extensible Function Call plugin system. Supports one-click free deployment of your private ChatGPT/LLM web application.",
+  "description": "ChatKore聊天提供极致的体验以及定制化的 API 集成服务和便捷付款解决方案。用户可以享受多种功能，包括与官方接口一致的 API 服务、AI聊天、AI绘画、图片伪原创、文本与语音互转、AI客服、知识库问答、AI系统定制、字幕翻译、字幕生成等。GPT 模型在多个领域表现出色，包括内容生成、翻译、学习和智能助手。",
   "keywords": [
-    "framework",
-    "chatbot",
+    "ChatKore",
+    "智能客服",
     "chatgpt",
-    "nextjs",
-    "vercel-ai",
-    "openai",
-    "azure-openai",
-    "visual-model",
-    "tts",
-    "stt"
+    "AI聊天",
+    "AI绘画",
+    "语音转文本",
+    "文本转语音"
   ],
   "homepage": "https://github.com/lobehub/lobe-chat",
   "bugs": {

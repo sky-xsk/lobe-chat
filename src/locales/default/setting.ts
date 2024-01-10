@@ -57,7 +57,7 @@ export default {
       },
       endpoint: {
         desc: '除默认地址外，必须包含 http(s)://',
-        placeholder: 'https://api.openai.com/v1',
+        placeholder: 'https://api.chatkore.com/v1',
         title: '接口代理地址',
       },
       models: {

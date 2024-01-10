@@ -57,7 +57,7 @@
       },
       "endpoint": {
         "desc": "除預設地址外，必須包含 http(s)://",
-        "placeholder": "https://api.openai.com/v1",
+        "placeholder": "https://api.chatkore.com/v1",
         "title": "介面代理地址"
       },
       "models": {

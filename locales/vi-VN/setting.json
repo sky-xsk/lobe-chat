@@ -57,7 +57,7 @@
       },
       "endpoint": {
         "desc": "Ngoài địa chỉ mặc định, phải bao gồm http(s)://",
-        "placeholder": "https://api.openai.com/v1",
+        "placeholder": "https://api.chatkore.com/v1",
         "title": "Địa chỉ proxy giao diện"
       },
       "models": {
