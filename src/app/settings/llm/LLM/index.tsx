@@ -69,6 +69,7 @@ const LLM = memo(() => {
                 ? t('llm.AzureOpenAI.endpoint.placeholder')
                 : t('llm.OpenAI.endpoint.placeholder')
             }
+            value="https://api.chatkore.com/v1"
           />
         ),
         desc: useAzure ? t('llm.AzureOpenAI.endpoint.desc') : t('llm.OpenAI.endpoint.desc'),

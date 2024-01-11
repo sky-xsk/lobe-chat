@@ -12,6 +12,7 @@ const useStyles = createStyles(({ stylish, token, css }) => ({
   body: stylish.noScrollbar,
   logo: css`
     fill: ${token.colorText};
+    font-size: 24px
   `,
   top: css`
     position: sticky;
@@ -26,8 +27,8 @@ const SideBar = memo(() => {
     <FolderPanel>
       <DraggablePanelBody className={styles.body} style={{ padding: 0 }}>
         <Flexbox className={styles.top} padding={16}>
-          <div>
-            <Logo className={styles.logo} extra={'Settings'} size={36} type={'text'} />
+          <div className={styles.logo}>
+            ChatKore
           </div>
         </Flexbox>
         <Flexbox gap={2} style={{ paddingInline: 8 }}>
