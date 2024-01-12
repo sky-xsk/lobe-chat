@@ -184,14 +184,14 @@ LobeChat 的插件生态系统是其核心功能的重要扩展，它极大地�
 
 <!-- AGENT LIST -->
 
-| 最近新增                                                                                                                                                                                  | 助手说明                                                                                                                                                       |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [绩效评估超人](https://chat-preview.lobehub.com/market?agent=kpi-hero)<br/><sup>By **[canisminor1990](https://github.com/canisminor1990)** on **2024-01-05**</sup>                        | 擅长写绩效评估报告与年终总结<br/>`绩效评估` `报告撰写` `数据分析` `专业见解` `okr` `kpi`                                                                       |
-| [SVG 流程图解释助手](https://chat-preview.lobehub.com/market?agent=svg-flowchart-explanation-assistant)<br/><sup>By **[Justin3go](https://github.com/Justin3go)** on **2024-01-05**</sup> | SVG 流程图解释，输入 SVG 源代码，解释该流程图<br/>`流程图解释` `技术文档编写` `业务知识`                                                                       |
-| [周报助手](https://chat-preview.lobehub.com/market?agent=write-report-assistant-development)<br/><sup>By **[CaoYunzhou](https://github.com/CaoYunzhou)** on **2024-01-05**</sup>          | 周报生成助手<br/>`周报` `日报` `写作` `总结`                                                                                                                   |
-| [三维动画工程师](https://chat-preview.lobehub.com/market?agent=react-three-3-d-expert)<br/><sup>By **[arvinxx](https://github.com/arvinxx)** on **2024-01-03**</sup>                      | 擅长 React、Three.js、React Three Fiber（r3f）、Drei 等库，能够在网页应用中创造高级别的三维视觉效果和动画。<br/>`3-d动画` `react` `three-js` `网页设计` `动画` |
+| 最近新增                                                                                                                                                                    | 助手说明                                                              |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| [英语解析师](https://chat-preview.lobehub.com/market?agent=english-teacher)<br/><sup>By **[fmaxyou](https://github.com/fmaxyou)** on **2024-01-11**</sup>                   | 擅长英语单词和短语解释与记忆技巧<br/>`英语教学` `解释` `记忆技巧`     |
+| [生活决策顾问](https://chat-preview.lobehub.com/market?agent=life-decision-advisor)<br/><sup>By **[amitalokbera](https://github.com/amitalokbera)** on **2024-01-11**</sup> | 生活决策顾问是一个虚拟指南，旨在帮助用户做出明智的生活决策<br/>`提示` |
+| [计算机科学论文润色](https://chat-preview.lobehub.com/market?agent=cs-research-paper)<br/><sup>By **[McKinleyLu](https://github.com/McKinleyLu)** on **2024-01-10**</sup>   | 擅长润色硕士学位论文<br/>`润色` `论文` `教育` `计算机科学`            |
+| [Emoji 生成](https://chat-preview.lobehub.com/market?agent=emoji-generate)<br/><sup>By **[mushan0x0](https://github.com/mushan0x0)** on **2024-01-09**</sup>                | 可以根据内容生成 Emoji 表情<br/>`表情生成` `emoji` `创意`             |
 
-> 📊 Total agents: [<kbd>**91**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
+> 📊 Total agents: [<kbd>**96**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
 
  <!-- AGENT LIST -->
 
