@@ -1,23 +1,23 @@
 export const URLS = {
-  config: '/api/config',
-  market: '/api/market',
-  proxy: '/api/proxy',
+  config: '/newchat/api/config',
+  market: '/newchat/api/market',
+  proxy: '/newchat/api/proxy',
 };
 
 export const PLUGINS_URLS = {
-  gateway: '/api/plugin/gateway',
-  store: '/api/plugin/store',
+  gateway: '/newchat/api/plugin/gateway',
+  store: '/newchat/api/plugin/store',
 };
 
 export const OPENAI_URLS = {
-  chat: '/api/openai/chat',
-  images: '/api/openai/images',
-  models: '/api/openai/models',
-  stt: '/api/openai/stt',
-  tts: '/api/openai/tts',
+  chat: '/newchat/api/openai/chat',
+  images: '/newchat/api/openai/images',
+  models: '/newchat/api/openai/models',
+  stt: '/newchat/api/openai/stt',
+  tts: '/newchat/api/openai/tts',
 };
 
 export const TTS_URL = {
-  edge: '/api/tts/edge-speech',
-  microsoft: '/api/tts/microsoft-speech',
+  edge: '/newchat/api/tts/edge-speech',
+  microsoft: '/newchat/api/tts/microsoft-speech',
 };

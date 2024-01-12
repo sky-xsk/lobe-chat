@@ -9,6 +9,7 @@ const withBundleAnalyzer = analyzer({
 });
 
 const withPWA = nextPWA({
+  basePath:'/newchat',
   dest: 'public',
   register: true,
   workboxOptions: {
@@ -18,6 +19,7 @@ const withPWA = nextPWA({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  basePath:'/newchat',
   compress: isProd,
   experimental: {
     optimizePackageImports: [
@@ -57,11 +59,11 @@ const nextConfig = {
     // to fix shikiji compile error
     // refs: https://github.com/antfu/shikiji/issues/23
     config.module.rules.push({
-      test: /\.m?js$/,
-      type: 'javascript/auto',
       resolve: {
         fullySpecified: false,
       },
+      test: /\.m?js$/,
+      type: 'javascript/auto',
     });
 
     return config;

@@ -43,7 +43,7 @@ const metadata: Metadata = {
 
   title: {
     default: title,
-    template: '%s · LobeChat',
+    template: '%s · ChatKore',
   },
   twitter: {
     card: 'summary_large_image',
