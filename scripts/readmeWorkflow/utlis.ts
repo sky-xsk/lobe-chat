@@ -1,8 +1,11 @@
 import { kebabCase } from 'lodash';
 import { readFileSync, writeFileSync } from 'node:fs';
-import { resolve } from 'node:path';
-
+import { resolve, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { AGENT_CN_URL, AGENT_EN_URL, PLUGIN_CN_URL, PLUGIN_EN_URL } from './const';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 const fetchIndex = async (url: string) => {
   const res = await fetch(url);

@@ -1,7 +1,11 @@
 import { readdirSync } from 'node:fs';
-import { resolve } from 'node:path';
+import { resolve, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
 import i18nConfig from '../../.i18nrc';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 export const root = resolve(__dirname, '../..');
 export const localesDir = resolve(root, i18nConfig.output);
