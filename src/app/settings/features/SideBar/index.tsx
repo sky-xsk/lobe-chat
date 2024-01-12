@@ -1,4 +1,4 @@
-import { DraggablePanelBody, Logo } from '@lobehub/ui';
+import { DraggablePanelBody } from '@lobehub/ui';
 import { createStyles } from 'antd-style';
 import { memo } from 'react';
 import { Flexbox } from 'react-layout-kit';
