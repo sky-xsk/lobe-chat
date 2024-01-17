@@ -9,7 +9,6 @@ const withBundleAnalyzer = analyzer({
 });
 
 const withPWA = nextPWA({
-  basePath:'/newchat',
   dest: 'public',
   register: true,
   workboxOptions: {
@@ -19,7 +18,6 @@ const withPWA = nextPWA({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath:'/newchat',
   compress: isProd,
   experimental: {
     optimizePackageImports: [
